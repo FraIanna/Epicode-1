@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    font-family: "Lora";
+}
+
+/******************header*******************/
+
+#container { 
+    width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+}
+#colore span{
+    text-transform: uppercase;
+    font-weight:800
+}
+
+#colore {
+    color: rgb(8, 66, 66);
+    text-align: center;
+}
+
+#colore p{
+    background-color: rgb(245, 245, 134, 0.2);
+    border-top: 5px solid rgb(231, 231, 8);
+    padding: 15px;
+}
+
+li{
+margin: 13px;
+}
+/*****************************acrticle****************************/
+
+h1, .sezione_principale{
+    text-align: center ;
+    margin-top: 30px;
+}
+
+.sezione_principale img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 4px rgba(0, 0, 0, 0.2)
+}
+
+.paragrafo {
+    margin-left: 55vh;
+    margin-right: 55vh;
+}
+
+#sotto_foto{
+    color: rgb(75, 75, 75);
+    margin-left: 1vh;
+}
+
+#flex {
+    border-left: 3PX solid rgb(231, 231, 8);
+    margin-left: 55vh;
+    padding-left: 0px;
+    width: 33vh;
+    
+}
+#flex p {
+    margin: 0px;
+}
+
+#flex:last-child {
+    color: orange;
+}
+
+#flex a{
+    color: rgb(4, 126, 85);
+}
+
+.liste {
+    margin-left: 55vh;
+    margin-right: 55vh;
+}
+
+h2 {
+    border-bottom: 2px solid rgb(4, 126, 85, 0.2);
+    padding-bottom: 20px;
+}
+
+/***********************************footer*****************************/
+footer {
+    margin-left: 55vh;
+    margin-right: 55vh;
+}
+
+footer a{
+    color: rgb(4, 126, 85);
+}
+
+
+
