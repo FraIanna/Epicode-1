@@ -1,102 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        
 * {
-    font-family: "Lora";
-}
+     font-family: "Lora";
+ }
+ /***************************header*******************************/
+ header {
+     text-align: center;
+ }
 
-/******************header*******************/
+ header div{
+     border-top: 2px solid rgb(231, 231, 8);
+     background-color: rgb(245, 245, 134, 0.2);
+     color: rgb(8, 66, 66);
+     padding: 5px;
+ }
 
-#container { 
-    width: 1600px;
-    margin: 0 auto;
-}
-
-header {
-    text-align: center;
-}
-
-.logo img {
-    width: 200px;
-}
-#colore span{
-    text-transform: uppercase;
-    font-weight:800
-}
-
-#colore {
-    color: rgb(8, 66, 66);
-    text-align: center;
-}
-
-#colore p{
-    background-color: rgb(245, 245, 134, 0.2);
-    border-top: 5px solid rgb(231, 231, 8);
-    padding: 15px;
-}
-
-li{
-margin: 13px;
-}
-/*****************************acrticle****************************/
-
-h1, .sezione_principale{
-    text-align: center ;
-    margin-top: 30px;
-}
-
-.sezione_principale img{
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 5px 4px rgba(0, 0, 0, 0.2)
-}
-
-.paragrafo {
-    margin-left: 55vh;
-    margin-right: 55vh;
-}
-
-#sotto_foto{
-    color: rgb(75, 75, 75);
-    margin-left: 1vh;
-}
-
-#flex {
-    border-left: 3PX solid rgb(231, 231, 8);
-    margin-left: 55vh;
-    padding-left: 0px;
-    width: 33vh;
+ header img {
+     max-width: 100%;
+     width: 200px;
+ }
+/**************************main*********************************/
+ main {
+     max-width: 100%;
+     width: 600px;
+     margin: 0 auto;
     
-}
-#flex p {
-    margin: 0px;
-}
+     margin-top: 5vw;
+ }
 
-#flex:last-child {
-    color: orange;
-}
+ h1 {
+     text-align: center;
+     margin: 0 auto 0 auto;
+     max-width: 70%;
+ }
 
-#flex a{
-    color: rgb(4, 126, 85);
-}
+ #corpo_centrale img{
+     max-width: 100%;
+     border-radius: 1%;
+ }
 
-.liste {
-    margin-left: 55vh;
-    margin-right: 55vh;
-}
+ #corpo_centrale figcaption{
 
-h2 {
-    border-bottom: 2px solid rgb(4, 126, 85, 0.2);
-    padding-bottom: 20px;
-}
+     text-align: center;
+     color: rgb(117, 117, 117, 0.8);        
+ }
 
-/***********************************footer*****************************/
-footer {
-    margin-left: 55vh;
-    margin-right: 55vh;
-}
+ #corpo_centrale p:not(.procedimento){
+     border-left: 2px solid rgb(231, 231, 8);
+     padding-left: 1%;
+ }
 
-footer a{
-    color: rgb(4, 126, 85);
-}
+ #corpo_centrale span{
+     color: rgb(218, 141, 0);
+     font-weight: 600;
+ }
 
+ #corpo_centrale a, footer a{
+     color: rgb(0, 172, 149);
+ }
 
-
+ #corpo_centrale li:not(.procedimento){
+     padding:1%
+ }
