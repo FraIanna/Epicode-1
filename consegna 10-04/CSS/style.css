@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(155, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+}
+
+main {
+    text-align: center;
+}
+
+#form{
+    background-color: white;
+    padding: 50px 200px 150px 200px;
+    border-radius: 20px;
+    background-color: rgb(255, 228, 196);
+
+}
+
+#form input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: lightgrey;
+    border: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#button1 {
+    width: 90px;
+    height: 32px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 209, 152);
+    color: gray;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+#form button:hover{
+    background-color: rgb(236, 180, 111);
+}
+
+#form ul {
+    text-align: start;
+    list-style: none;
+    width: 410px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#form li{
+    background-color: rgb(210, 212, 212, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.button2{
+    width: 20px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 184, 111);
+    color: gray;
+    cursor: pointer;
+}
